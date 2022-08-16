@@ -499,12 +499,12 @@ a>.certificate-item:hover {
 }
 
 .certi-title h4 {
-    font-size: 16px;
+    font-size: 14px;
     margin: 0 0 5px
 }
 
 .certi-id {
-    font-size: .9em;
+    font-size: .7em;
     color: #777
 }
 
@@ -663,6 +663,19 @@ a>.certificate-item:hover {
 
 .lm-info-block .lm-info-block-value:empty {
     margin: 0
+}
+
+.timeline .divider2 {
+    position: absolute;
+    top: 0;
+    left: 5% !important;
+    bottom: 0;
+    width: 1px;
+    background-color: #eee;
+}
+
+.timeline .right-part2 {
+    width: 85% !important;
 }
 
 @media only screen and (max-width:480px) {
